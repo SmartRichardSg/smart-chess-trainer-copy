@@ -16,7 +16,7 @@ export default defineConfig({
     name: 'defer-stylesheet',
     transformIndexHtml: (html: string) => deferStylesheets(html),
   }],
-  base: '/web-chess/',
+  base: '/smart-chess-trainer-copy/',
   build: {
     rollupOptions: {
       output: {
